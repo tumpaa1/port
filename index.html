@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="first__section flex justify-cente bg-gray-400">
+        <div class="w-[80%] h-[100vh]">
+            <div class="nav flex  justify-between my-[10px]">
+                <h1 class="text-xl">Nahida </h1>
+                <ul class="flex gap-[10px]">
+                    <li class="hover:underline hover:text-gray-300">
+                        <a href="">About</a>
+                    </li>
+                    <li class="hover:underline hover:text-gray-300">
+                        <a href=""> Experience</a>
+                    </li>
+                    <li class="hover:underline hover:text-gray-300">
+                        <a href="">Projects</a>
+                    </li>
+                    <li class="hover:underline hover:text-gray-300">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero__section flex flex-wrap justify-center w-[70%] items-center mx-auto my-[200px] gap-[60px]">
+                <img class="sm:w-[150px] sm:h-[150px] md:-[250px] md:h-[250px] lg:w-[300px] lg:h-[300px] rounded-full"
+                    src="data:image/jpeg;base64,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">
+                <div>
+                    <h1>Hello, I'm</h1>
+                    <h1 class="text-bold text-3xl">Nahida Sultana</h1>
+                    <h1>Frontend Developer</h1>
+                    <div class="flex gap-[15px] py-[10px]">
+                        <button class="w-full md:w-1/2 border border-black border-3 rounded-full hover:bg-black hover:text-white">
+                            Download CV
+                        </button>
+                        <button class="w-full md:w-1/2 bg-black text-white rounded-full">
+                            Contact Info
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center my-[30px] md:my-[100px]">
+        <div class="w-[80%] ">
+            <p class="text-center">To know more</p>
+            <h1 class="text-center text-6xl text-bold">About Me</h1>
+            <div class="flex flex-col md:flex-row md:gap-[15px]">
+                <img class="w-[180px] h-[180px] md:w-[250px] md:h-[250px]
+                lg:w-[300px] lg:h-[300px] rounded-[30px] my-[10px]"
+                    src="data:image/jpeg;base64,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">
+                <div class="">
+                    <div class="flex flex-col md:flex-row my-[15px] gap-[10px]">
+                        <div class="border border-black border-3 w-full md:w-1/2 h-[120px] rounded-[30px]">
+                            <img class="w-[20px] h-[20px] mx-[180px] my-[5px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/experience.png">
+                            <h1 class="font-bold text-center text-2xl">Experience</h1>
+                            <p class="text-gray-500 text-center">2+ years</p>
+                            <p class="text-gray-500 text-center">Frontent Development</p>
+                        </div>
+                        <div class="border border-black border-3 w-full md:w-1/2 h-[120px] rounded-[30px] text-center">
+                            <img class="w-[20px] h-[20px] mx-[180px] my-[5px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/experience.png">
+                            <h1 class="font-bold text-center text-2xl">Education</h1>
+                            <p class="text-gray-500 text-center">B.SC Engineering</p>
+                            <p class="text-gray-500 text-center">CSE</p>
+                        </div>
+                    </div>
+                    <div class="text-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente
+                        repellat reprehenderit nisi dolorem, quisquam omnis doloribus magnam assumenda possimus. Maiores
+                        neque sit aut? Dolore fuga explicabo ad quas nostrum?</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore__section flex my-[100px] justify-center">
+        <div class="w-[80%] bg-tansparent-300">
+            <p class="text-center">Explore my</p>
+            <h1 class="text-center text-bold text-5xl">Experience</h1>
+            <div class="flex flex-col md:flex-row gap-[10px] my-[20px]">
+                <div class="div w-full md:w-1/2 h-[200px] border border-black rounded-[30px] bg-gray-300 text-center my-[30px]">
+                    <p class="my-[20px]">Frontend Development
+                        <ul class="flex gap-[10px] md:gap-[30px] md:mx-[20px]">
+                            <li>
+                                <div class="flex"><img class="w-[20px] h-[20px]"
+                                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">Html
+                                </div>
+                                <div class="w-[10] text-gray-300">Experieced</div>
+                            </li>
+                            <li>
+                                <div class="flex"><img class="w-[20px] h-[20px]"
+                                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">
+                                    CSS</div>
+                                <div class="w-[10] text-gray-400">Experienced</div>
+                            </li>
+                            <li>
+                                <div class="flex"><img class="w-[20px] h-[20px]"
+                                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">SASS
+                                </div>
+                                <div class="w-[10] text-gray-400">Basic</div>
+                            </li>
+                            <li>
+                                <div class="flex"><img class="w-[20px] h-[20px]"
+                                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">JavaScript
+                                </div>
+                                <p class="w-[10] text-gray-400">basic</p>
+                            </li>
+                        </ul>
+                        <ul class="flex gap-[100px] mx-[60px] my-[10px]">
+                            <li>
+                                <div class="flex"><img class="w-[20px] h-[20px]"
+                                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">TypeScript
+                                </div>
+                                <p class="w-[10] text-gray-400">basic</p>
+                            </li>
+                            <li>
+                                <div class="flex"><img class="w-[20px] h-[20px]"
+                                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">Material
+                                    UI </div>
+                                <p class="w-[10] text-gray-400">basic</p>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="div w-full md:w-1/2 h-[200px] border border-black bg-gray-300 rounded-[30px] text-center my-[30px]">
+                    <p class="my-[20px]">Frontend Development</p>
+                    <ul class="flex gap-[100px] md:gap-[100px] mx-[20px]">
+                        <li>
+                            <div class="flex"><img class="w-[20px] h-[20px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">
+                            PostgreSQL</div>
+                        <div class="w-[10] text-gray-400">Experienced</div> 
+                        </li>
+                        <li>
+                            <div class="flex"><img class="w-[20px] h-[20px]"
+                                    src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png">
+                                Note JS</div>
+                            <div class="w-[10] text-gray-400">Experienced</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex my-[100px] justify-center">
+        <div class="w-[80%]">
+            <p class="text-center">Browse My Recent </p>
+            <h1 class="text-center text-4xl text-bold mb-[10px]">Projects</h1>
+            <div class="sm:flex flex-col md:flex-row gap-[10px]">
+                <div class="w-[250px] md:w-[300px] border border-black border-gray-500 rounded-[30px] bg-gray-300 sm:gap-[10px]">
+                    <div>
+                        <img class="rounded-[30px] px-[10px] py-[10px] w-[250px] h-[250px] item center mx-auto"
+                            src="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-1.png">
+                        <h1 class="text-center text-xl font-bold my-[5px]">Project-1</h1>
+                        <div class="flex justify-center gap-[10px] py-[10px]">
+                            <button
+                                class="w-[80px] border border-gray-400 rounded-[20px] hover:bg-black hover:text-white text-center">Github</button>
+                            <button
+                                class="w-[80px] border border-gray-400 border-3 rounded-[20px] hover:bg-black hover:text-white text-center">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[250px] md:w-[300px] border border-black border-gray-500 rounded-[30px] bg-gray-300 sm:gap-[10px]">
+                    <div>
+                        <img class="rounded-[30px] px-[10px] py-[10px] w-[250px] h-[250px] item center mx-auto"
+                            src="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-2.png">
+                        <h1 class="text-center text-xl font-bold my-[5px]">Project-2</h1>
+                        <div class="flex justify-center gap-[10px] py-[10px]">
+                            <button
+                                class="w-[80px] border border-gray-400 rounded-[20px] hover:bg-black hover:text-white text-center">Github</button>
+                            <button
+                                class="w-[80px] border border-gray-400 border-3 rounded-[20px] hover:bg-black hover:text-white text-center">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="w-[250px] md:w-[300px] border border-black border-gray-500 rounded-[30px] bg-gray-300">
+                        <div>
+                            <img class="rounded-[30px] px-[10px] py-[10px] w-[250px] h-[250px] item center mx-auto"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-3.png">
+                            <h1 class="text-center text-xl font-bold my-[5px]">Project-3</h1>
+                            <div class="flex justify-center gap-[10px] py-[10px]">
+                                <button
+                                    class="w-[80px] border border-gray-400 rounded-[20px] hover:bg-black hover:text-white text-center">Github</button>
+                                <button
+                                    class="w-[80px] border border-gray-400 border-3 rounded-[20px] hover:bg-black hover:text-white text-center">Live
+                                    Demo</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+      <div class="contact__section mx-[150px]">
+            <div class="w-[80%]">
+                <p class="text-center">Get in touch</p>
+                <h1 class="font-bold text-3xl text-center">Contact Me</h1>
+                <div
+                    class="w-[100%] h-[30px] md:w-[50%] h-[60px] flex justify-center border border-gray-400 rounded-[30px] mx-auto my-[10px]">
+                    <div class="flex justify-center my-[20px]">
+                        <img class="w-[25px] h-[25px]"
+                            src="https://tangerine-hummingbird-1479b6.netlify.app/assets/linkedin.png">
+                        <button class="text-15 hover:text-gray-300 hover:underline">Linked In</button>
+                    </div>
+                </div>
+                <div class="flex my-[150px] justify-center mx-auto">
+                    <ul class="flex gap-[10px]">
+                        <li class="hover:underline hover:text-gray-300">
+                            <a href="">About</a>
+                        </li>
+                        <li class="hover:underline hover:text-gray-300">
+                            <a href=""> Experience</a>
+                        </li>
+                        <li class="hover:underline hover:text-gray-300">
+                            <a href="">Projects</a>
+                        </li>
+                        <li class="hover:underline hover:text-gray-300">
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <p class=" mb-5 text-center text-gray-400 text-lg font-medium">Copyright <span class="mr-1"><i
+                        class="fas fa-copyright"></i></span>2024 Nahida Sultana. All Rights Reserved.</p>
+        </div>
+
+
+</body>
